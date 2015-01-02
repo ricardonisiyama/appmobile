@@ -1,5 +1,4 @@
-<script type="text/javascript" charset="utf-8">
-    var pictureSource;   // picture source
+   var pictureSource;   // picture source
     var destinationType; // sets the format of returned value 
     // Wait for PhoneGap to connect with the device
     //
@@ -7,8 +6,8 @@
     // PhoneGap is ready to be used!
     //
     function onDeviceReady() {
-        pictureSource=navigator.camera.PictureSourceType;
-        destinationType=navigator.camera.DestinationType;
+        pictureSource = navigator.camera.PictureSourceType;
+        destinationType = navigator.camera.DestinationType;
     }
     // Called when a photo is successfully retrieved
     //
@@ -67,4 +66,3 @@
     function onFail(message) {
       alert('Failed because: ' + message);
     }
-    </script>
