@@ -3,7 +3,7 @@
 */
 function carregarItens(){
 	//variáveis
-	var itens = "", url = "http://lionsoft.com.br/projetos/meuapp/teste_json.php";
+	var itens = "", url = "http://www.lionsoft.com.br/meuapp/teste_json.php";
 
     //Capturar Dados Usando Método AJAX do jQuery
     $.ajax({
